@@ -1,0 +1,1090 @@
+body {
+  margin: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  color: #363636;
+}
+#header {
+  max-height: 550px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.first {
+  margin: auto;
+  max-width: 1170px;
+  padding: 60px 0;
+  text-align: center;
+}
+.firstHeading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 0;
+}
+.greenText {
+  color: #549663;
+  font-weight: 800;
+}
+h4 {
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 30px;
+  margin: 0;
+}
+.CTAtable {
+  display: flex;
+  grid-column-gap: 20px;
+  text-align: center;
+  justify-content: center;
+  padding: 40px 0 30px;
+  flex-wrap: wrap;
+}
+.firstBuyTable-box,
+.secondBuyTable-box {
+  overflow: hidden;
+  border-radius: 15px;
+  border: 0;
+}
+.firstBuyTable-box {
+  border-width: 0px 2px 2px 2px;
+  border-style: solid;
+  border-color: #f1f0f5;
+}
+.secondBuyTable-box {
+  background: rgba(230, 236, 224, 0.5);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.firstTableHeader,
+.secondTableHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 22px 0px;
+  max-width: 400px;
+  max-height: 74px;
+  flex-wrap: wrap;
+}
+.firstTableHeader {
+  background: #f0d8a8;
+}
+.secondTableHeader {
+  background: #549663;
+  color: #ffffff;
+}
+.tableHeaderText {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.tableText {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  padding-top: 20px;
+}
+.redText {
+  color: #d43b4a;
+}
+.firstTableImg {
+  padding: 30px 0 10px;
+}
+.secondTableImg {
+  padding: 20px 0;
+}
+.saveText {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+.price {
+  font-weight: 800;
+  font-size: 52px;
+  line-height: 50px;
+  color: #549663;
+  padding: 10px 0 30px;
+}
+.buyButton,
+.bigBuyButton {
+  background: #ffd800;
+  border: 0;
+  border-radius: 15px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+}
+.buyButton {
+  width: 340px;
+  height: 73px;
+  padding: 12px 0px;
+}
+.buyButtonText {
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 28px;
+  text-transform: uppercase;
+  display: block;
+  padding-bottom: 3px;
+}
+.buyButtonSecondText {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  display: block;
+}
+.regularPrice {
+  padding: 5px 0 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+}
+.payments {
+  padding-bottom: 30px;
+}
+.paymentsFirst {
+  display: block;
+}
+.guarantee {
+  display: inline-flex;
+  flex-wrap: wrap;
+  place-content: center;
+}
+.guaranteeText {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  padding-left: 15px;
+}
+.experience {
+  background: #f1f0f5;
+  text-align: center;
+}
+.greenHeader {
+  background: #549663;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 50px 0px 80px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+.greenHeader > h2 {
+  color: #ffffff;
+}
+.greenSubheading,
+.greenSubheading {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 60px;
+  position: relative;
+}
+#sectionFour .greenSubheading {
+  font-size: 40px;
+  line-height: 52px;
+}
+.arrowDown {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-self: center;
+  bottom: -20%;
+  flex-wrap: wrap;
+}
+.experienceGrid {
+  display: grid;
+  padding-top: 60px;
+  justify-content: center;
+}
+.experienceRow {
+  padding-bottom: 50px;
+  display: flex;
+  grid-column-gap: 30px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.experienceElement {
+  padding: 0px;
+  gap: 30px;
+  max-width: 570px;
+}
+.experienceImage {
+  max-width: 570px;
+  max-height: 350px;
+  box-shadow: (0px 5px 30px rgba(0, 0, 0, 0.2));
+  border-radius: 15px;
+}
+.experienceContent {
+  padding: 0 20px;
+}
+.experienceText1,
+.experienceText2,
+.experienceText3,
+.experienceText4 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0;
+  text-align: start;
+  padding: 0 20px;
+}
+.experienceText1 {
+  padding: 0 20px 30px;
+}
+.experienceText2,
+.experienceText4 {
+  padding: 0 20px 40px;
+}
+.experienceText3 {
+  padding: 0 20px 20px;
+}
+.experienceHeading {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 38px;
+  color: #549663;
+  padding: 30px 0 20px;
+}
+.experienceFooter {
+  text-align: start;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 28px;
+  color: #d43b4a;
+  margin: 0;
+  padding: 0 20px;
+}
+a .bigBuyButton {
+  cursor: pointer;
+}
+.bigBuyButton {
+  max-width: 600px;
+  max-height: 80px;
+  padding: 25px 226.5px;
+}
+p {
+  margin: 0;
+}
+.bigBuyButton > p {
+  padding: 0;
+  font-size: 30px;
+  line-height: 30px;
+}
+.experience > .guarantee {
+  padding: 15px 0 50px;
+  align-items: center;
+}
+.testemonials {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 30px;
+  justify-content: center;
+  padding: 0 375px 60px;
+}
+.testemonialBox {
+  background: #ffffff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 30px 20px;
+  background-image: url("../images/quotes.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  width: 570px;
+  justify-content: space-between;
+  gap: 20px;
+}
+.testemonialText {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  padding: 0;
+  margin: 0;
+  text-align: start;
+}
+.testemonialPerson {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 28px;
+  color: #549663;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 375px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.ingredientsHeader {
+  display: contents;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #549663;
+  gap: 20px;
+}
+.ingredientsSubheading {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 38px;
+  text-align: center;
+  color: #363636;
+}
+.ingredientContainer {
+  background: #f7f7f7;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  padding: 30px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.containerHeader {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 52px;
+  text-transform: capitalize;
+  color: #549663;
+}
+.containerText {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  padding: 20px 0;
+}
+.containerImage {
+  border-radius: 15px;
+}
+.containerFooter > ul {
+  list-style-type: inherit;
+  font-weight: 800;
+  padding-left: 50px;
+  gap: 10px;
+  display: grid;
+}
+#sectionFour {
+  text-align: center;
+}
+#sectionFour .greenHeader {
+  margin-bottom: 40px;
+}
+#sectionFour .testemonialBox {
+  background: #f1f0f5;
+  background-image: url("../images/quotes.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  height: 188px;
+}
+#sectionFour .testemonials {
+  padding: 40px 375px;
+}
+.subscribeAndSave {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: start;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+.mbg {
+  background-color: #549663;
+  padding: 60px 40px;
+  margin: 40px 335px 0;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  margin-bottom: 60px;
+}
+.mbg::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background-image: url(../images/mbgBackground.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position-x: 140%;
+  background-position-y: 700%;
+  opacity: 10%;
+}
+.mbgHeading {
+  font-weight: 800;
+  color: #ffffff;
+}
+.mbgBody {
+  display: flex;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+  text-align: start;
+  gap: 70px;
+}
+.mbg div:nth-child(2) {
+  padding: 40px 0;
+}
+.whyGL {
+  background: #f1f0f5;
+  text-align: center;
+  padding: 60px 0;
+  font-weight: 800;
+}
+.whyGLHeader {
+  max-width: 1170px;
+  margin: auto;
+}
+.whyGLHeading {
+  font-size: 50px;
+  line-height: 60px;
+  color: #549663;
+}
+.whyGLSubheading {
+  font-size: 30px;
+  line-height: 38px;
+  padding: 20px 0 50px;
+}
+.whyGLContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  max-width: 1250px;
+  margin: auto;
+}
+.whyGLContent ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.whyGLContent li {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.whyGLContent li img {
+  max-width: 30px;
+  max-height: 30px;
+}
+h5 {
+  font-weight: 500;
+  font-size: 28px;
+  margin: 0;
+  line-height: 36px;
+}
+.firstWhyGLColumn li {
+  align-self: flex-end;
+  text-align: right;
+}
+.secondWhyGLColumn li {
+  align-self: flex-start;
+  text-align: left;
+}
+.safeEffective {
+  background-image: url("../images/SafeEffectivebackground.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 60px 0;
+  text-align: center;
+}
+.safeEffective h2 {
+  font-weight: 800;
+}
+.safeEffectiveGrid {
+  display: grid;
+  padding: 40px 0;
+  justify-content: center;
+  grid-row-gap: 40px;
+}
+.safeEffectiveRow {
+  display: flex;
+  grid-column-gap: 20px;
+  text-align: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.safeEffectiveElement {
+  padding: 30px 20px;
+  max-width: 470px;
+  background: #ffffff;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+.safeEffectiveText {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0;
+  text-align: center;
+}
+.safeEffectiveHeading {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #549663;
+  padding: 10px 0 20px;
+}
+.safeEffective > .guarantee {
+  padding-top: 15px;
+  align-items: center;
+}
+.faq {
+  padding: 60px 0;
+  background: #f1f0f5;
+}
+.questionHeader {
+  background: #549663;
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+.faq .questionHeader .open,
+.faq .questionHeader .close {
+  position: absolute;
+  right: 0;
+  padding: 0 30px;
+  opacity: 0;
+  transition: all 400ms;
+  transform: translateY(-8px);
+}
+.faq .questionHeader .open.active,
+.faq .questionHeader .close.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+.questionsContainer {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: grid;
+  gap: 20px;
+}
+.faq h4 {
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.faq .questionText {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 500ms;
+}
+.questionText p {
+  padding: 20px 30px;
+}
+.faq .questionText.active {
+  max-height: 600px;
+}
+.faq .question {
+  border: 2px solid #549663;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.faq .questionHeader:target {
+  border-radius: 15px 15px 0 0;
+}
+.faq h2 {
+  font-weight: 800;
+  padding-bottom: 40px;
+}
+.footer {
+  text-align: center;
+  padding: 50px 0;
+}
+.footerHeader {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1170px;
+}
+.footerHeading,
+.footerSubheading {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.footerHeading span,
+.footerSubheading span {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0 20px;
+}
+.footerHeading span {
+  text-transform: uppercase;
+}
+.footer p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+.footerText {
+  max-width: 970px;
+  margin: 20px auto;
+}
+hr {
+  margin: 20px 0;
+  border: 1px solid #f1f0f5;
+  max-width: 1170px;
+}
+.footerBottom {
+  padding: 10px 151px;
+  border: 1px solid #333333;
+  display: inline-block;
+}
+.mbg2 {
+  background: #f1f0f5;
+  padding: 60px 10px;
+}
+.ctaAlone {
+  padding: 60px 0;
+  text-align: center;
+}
+/* MEDIA SCREEN */
+@media screen and (max-width: 320px) {
+  #header img {
+    width: 100%;
+  }
+  .first {
+    max-width: 100%;
+  }
+  h2 {
+    font-weight: 400;
+    font-size: 32px;
+  }
+  h4 {
+    font-weight: 500;
+    font-size: 22px;
+  }
+  .CTAtable {
+    flex-direction: column;
+    max-width: 100%;
+    padding: 10px 5px;
+    gap: 10px;
+  }
+  .tableHeaderText {
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .tableText {
+    font-weight: 400;
+    font-size: 24px;
+    padding-top: 10px;
+  }
+  .firstBuyTable-box,
+  .secondBuyTable-box {
+    max-width: 300px;
+  }
+  .secondTableImg {
+    max-width: 100%;
+  }
+  .buyButton {
+    max-width: 90%;
+  }
+  .greenSubheading {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .experience {
+    padding-bottom: 10px;
+  }
+  .experienceRow {
+    gap: 50px;
+  }
+  .experienceElement {
+    width: 100%;
+  }
+  .experienceImage {
+    width: 100%;
+    height: 100%;
+  }
+  .bigBuyButton {
+    width: 100%;
+    padding: 5px 0;
+  }
+  #sectionFour .testemonials,
+  .testemonials {
+    flex-direction: column;
+    width: 300px;
+    padding: 5px;
+    overflow: hidden;
+  }
+  #sectionFour .testemonialBox,
+  .testemonialBox {
+    width: 100%;
+    padding: 6px;
+  }
+  #sectionFour .testemonials {
+    min-height: 620px;
+    padding-top: 30px;
+  }
+  #sectionFour .testemonialBox {
+    width: 60%;
+  }
+  #sectionFour .testemonialText,
+  .testemonialText {
+    width: 300px;
+  }
+  .ingredients {
+    padding: 10px 0;
+    text-align: center;
+  }
+  .ingredientsHeader {
+    font-weight: 700;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  .ingredientsSubheading {
+    font-weight: 800;
+    font-size: 15px;
+  }
+  .ingredientContainer {
+    flex-direction: column;
+    width: 300px;
+    padding: 5px 5px;
+  }
+  .ingredientContainer img {
+    width: 100%;
+  }
+  #sectionFour .greenSubheading {
+    font-size: 30px;
+  }
+  .mbg {
+    margin: 0;
+  }
+  .mbgBody {
+    flex-direction: column;
+    width: 100%;
+  }
+  .mbgBody span {
+    width: 100%;
+  }
+  .mbg img {
+    width: 100%;
+  }
+  .whyGLHeader{
+    padding: 0 10px;
+  }
+  .whyGLHeading {
+    font-weight: 700px;
+    font-size: 30px;
+  }
+  .whyGLSubheading {
+    font-weight: 700px;
+    font-size: 15px;
+  }
+  .whyGLContent {
+    flex-direction: column;
+    width: 95%;
+    padding: 5px;
+    font-size: 14px;
+  }
+  .whyGLContent img{
+    width: 50%;
+  }
+  h5 {
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .firstWhyGLColumn li {
+    align-self: flex-end;
+    text-align: right;
+  }
+  .footerBottom {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 756px) {
+  #header img {
+    width: 100%;
+  }
+  .first {
+    max-width: 100%;
+    padding: 20px 5px;
+  }
+  .firstTableHeader,
+  .secondTableHeader {
+    height: 74px;
+  }
+
+  .secondTableImg {
+    max-width: 100%;
+  }
+  .buyButton {
+    max-width: 90%;
+  }
+  .experienceRow {
+    justify-content: center;
+    gap: 50px;
+  }
+  .experience {
+    padding-bottom: 10px;
+  }
+  #sectionFour .testemonials,
+  .testemonials {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 0 20px;
+    align-items: center;
+  }
+  #sectionFour .testemonialBox,
+  .testemonialBox {
+    width: 60%;
+    padding: 20px 25px;
+  }
+  #sectionFour .testemonials {
+    padding-top: 30px;
+  }
+  #sectionFour .testemonialBox {
+    height: 100%;
+  }
+  #sectionFour .testemonialText,
+  .testemonialText {
+    width: 100%;
+  }
+  .ingredients {
+    padding: 10px 0;
+    text-align: center;
+  }
+  .ingredientContainer {
+    flex-direction: column;
+    width: 95%;
+    padding: 5px 5px;
+    text-align: left;
+  }
+  .ingredientContainer img {
+    width: 100%;
+  }
+ .greenHeader {
+    padding: 20px 15px 60px;
+  }
+  #sectionFour{
+    padding: 0 15px;}
+
+  .mbg {
+    margin: 30px 0;
+  }
+  .mbgBody {
+    flex-direction: column;
+    align-items: center;
+  }
+  .mbg img {
+    width: 100%;
+  }
+  .whyGLContent {
+    flex-direction: column;
+  }
+  .firstWhyGLColumn li,
+  .secondWhyGLColumn li {
+    text-align: left;
+  }
+  .safeEffective{
+    background-image: none;
+    background: #F0D8A8;
+  }
+  .safeEffectiveRow {
+    display: grid;
+}
+}
+
+@media screen and (min-width:757px)  and (max-width:1023px){
+  #header img{
+    width: 100%;
+  }
+  .experienceRow{
+    justify-content: center;
+    gap: 50px;
+  }
+  #sectionFour .testemonials,
+  .testemonials {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 0 20px;
+    align-items: center;
+    }
+  #sectionFour .testemonialBox,
+  .testemonialBox {
+    width: 60%;
+    padding: 20px 25px;
+  }
+  #sectionFour .testemonials {
+    height: 420px;
+    padding-top: 30px;
+  }
+  #sectionFour .testemonialBox {
+    height: 100%;
+  }
+  #sectionFour .testemonialText,
+  .testemonialText {
+    width: 100%;
+  }
+  .ingredients {
+    padding: 10px 0;
+    text-align: center;
+  }
+  .ingredientsHeader {
+    
+    width: 100%;
+    text-align: center;
+  }
+  .ingredientContainer {
+    flex-direction: column;
+    width: 95%;
+    padding: 5px 5px;
+    text-align: left;
+  }
+  .ingredientContainer img {
+    width: 100%;
+  }
+  #sectionFour{
+    padding: 0 15px;
+  }
+  .mbg {
+    margin: 15px 10px;
+  }
+  .mbgBody {
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .mbg img {
+    width: 100%;
+  }
+  .whyGL{
+    padding: 20px 10px;
+  }
+  .whyGLContent {
+    flex-direction: column;
+  }
+  .firstWhyGLColumn li,
+  .secondWhyGLColumn li {
+    text-align: left;
+  }
+  .safeEffective{
+    background-image: none;
+    background: #F0D8A8;
+  }
+  .safeEffectiveRow {
+    display: grid;
+}
+.greenHeader {
+  padding: 20px 15px 60px;
+}
+.footerBottom {
+  padding: 20px 40px;
+}
+}
+
+
+@media screen and (min-width:1024px) and (max-width:1800px)  {
+  #header img{
+    width: 100%;
+  }
+  .experienceRow{
+    justify-content: center;
+    gap: 50px;
+  }
+  #sectionFour .testemonials,
+  .testemonials {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 0 20px;
+    align-items: center;
+    }
+  #sectionFour .testemonialBox,
+  .testemonialBox {
+    width: 60%;
+    padding: 20px 25px;
+  }
+  #sectionFour .testemonials {
+    height: 420px;
+    padding-top: 30px;
+  }
+  #sectionFour .testemonialBox {
+    height: 100%;
+  }
+  #sectionFour .testemonialText,
+  .testemonialText {
+    width: 100%;
+  }
+  .ingredients {
+    padding: 10px 0;
+    text-align: center;
+  }
+  .ingredientsHeader {
+    width: 100%;
+    text-align: center;
+  }
+  .ingredientContainer {
+    flex-direction: column;
+    width: 95%;
+    padding: 5px 5px;
+    text-align: left;
+  }
+  .ingredientContainer img {
+    width: 100%;
+  }
+  #sectionFour{
+    padding: 0 15px;
+  }
+  .mbg {
+    margin: 15px 10px;
+  }
+  .mbgBody {
+    flex-direction: column;
+    align-items: center;
+  }
+  .mbg img {
+    width: 100%;
+  }
+  .whyGL{
+    padding: 20px 10px;
+  }
+  .safeEffectiveRow {
+    display: grid;
+}
+.safeEffective{
+  background-image: none;
+  background: #F0D8A8;
+}
+}
